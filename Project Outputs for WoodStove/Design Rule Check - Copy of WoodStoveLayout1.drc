@@ -1,0 +1,88 @@
+Protel Design System Design Rule Check
+PCB File : C:\AltiumProjects\WoodStove2\Copy of WoodStoveLayout1.PcbDoc
+Date     : 5/26/2018
+Time     : 4:31:02 PM
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InNet('AC Out')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InNet('AC In')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InNet('ACFUSE')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNamedPolygon('LPWR-+5V') or InNamedPolygon('LPWR-GND') or InNamedPolygon('LPWR-+3V3') or InNamedPolygon('LPWR-+12V') or InNamedPolygon('LPWR-+3V3 1') or InNamedPolygon('LGND-GND') or InNamedPolygon('LGND-GND 1') or InNamedPolygon('Top Layer-GND 12') or InNamedPolygon('Top Layer-GND 13')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (InNamedPolygon('12FANPOWERPLANE') or InNamedPolygon('12VFANTOP') or InNamedPolygon('FANGNDLAYER') or InNamedPolygon('FANBTMLAYER')or InNamedPolygon('Top Layer-GND 14')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=12mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=12mil) (Max=50mil) (Preferred=14mil) (InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=12mil) (Max=50mil) (Preferred=14mil) (InNet('+3V3'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=150mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (2.994mil < 3mil) Between Pad U13-15(1197.047mil,1560.315mil) on Top Layer And Pad U13-15(1218.701mil,1537.677mil) on Top Layer [Top Solder] Mask Sliver [2.994mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (2.994mil < 3mil) Between Pad U13-7(1437.205mil,1878.228mil) on Top Layer And Pad U13-7(1458.858mil,1855.591mil) on Top Layer [Top Solder] Mask Sliver [2.994mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (2.994mil < 3mil) Between Pad U14-15(2225.095mil,1793.78mil) on Top Layer And Pad U14-15(2246.749mil,1771.142mil) on Top Layer [Top Solder] Mask Sliver [2.994mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (2.994mil < 3mil) Between Pad U14-7(2465.253mil,2111.693mil) on Top Layer And Pad U14-7(2486.907mil,2089.055mil) on Top Layer [Top Solder] Mask Sliver [2.994mil]
+Rule Violations :4
+
+Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InNetClass('SPI1DATA'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (InNetClass('I2CCLASS'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (InDifferentialPair ('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=5mil) (InNetClass('XTAL'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=500mil) (InNetClass('SPI2DATACLASS'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Waived Violations : 0
+Time Elapsed        : 00:00:01
